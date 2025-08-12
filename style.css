@@ -1,0 +1,37 @@
+#tiPrin{
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    background-image: linear-gradient(45deg,rgb(61, 48, 48), rgb(180, 89, 89));
+}
+.parra{
+    color:rgb(180, 89, 89);
+    font-size: 40px;
+    text-align: center;
+}
+.titSecu{
+    color: cadetblue;
+}
+
+h2{
+    color: darkolivegreen;
+    font-size: 30px;
+}
+
+.ima1{
+    border-radius: 5%;
+    padding-left: 150px;
+}
+
+h4{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    background-image: linear-gradient(45deg, rgb(83, 71, 0), rgb(206, 176, 5));
+}
+
+.guitar1{
+    height: 500px;
+    transform: rotate(-90deg);
+    transform-origin: 200px 10px;
+}
