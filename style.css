@@ -13,14 +13,10 @@
     color: cadetblue;
 }
 
-.div1{
-    color: white;
+.titSecu{
+    color: cadetblue;
     font-size: 30px;
     text-align: center;
-    background-image: url(./IMG/FONDO\ DE\ GUITARRAS.jpg);
-    height: 500px;
-    background-repeat: no-repeat;   
-    background-size: cover; 
 }
 
 .ima1{
