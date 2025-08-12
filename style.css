@@ -38,5 +38,11 @@ h4{
 
 .enla1{
     text-align: center;
-    padding-left: 750px;
+    padding-left: 900px;
+}
+
+.click{
+    font-size: 30px;
+    text-align: center;
+    text-decoration: underline;
 }
