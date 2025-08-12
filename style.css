@@ -20,7 +20,7 @@
 }
 
 .ima1{
-    border-radius: 5%;
+    width: 600px;
     padding-left: 650px;
 }
 
@@ -32,7 +32,11 @@ h4{
 }
 
 .guitar1{
-    height: 500px;
-    transform: rotate(-90deg);
-    transform-origin: 200px 10px;
+    height: 400px;
+    padding-left: 380px;
+}
+
+.enla1{
+    text-align: center;
+    padding-left: 750px;
 }
