@@ -13,14 +13,19 @@
     color: cadetblue;
 }
 
-h2{
-    color: darkolivegreen;
+.div1{
+    color: white;
     font-size: 30px;
+    text-align: center;
+    background-image: url(./IMG/FONDO\ DE\ GUITARRAS.jpg);
+    height: 500px;
+    background-repeat: no-repeat;   
+    background-size: cover; 
 }
 
 .ima1{
     border-radius: 5%;
-    padding-left: 150px;
+    padding-left: 650px;
 }
 
 h4{
