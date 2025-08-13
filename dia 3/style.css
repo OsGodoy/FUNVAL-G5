@@ -1,0 +1,131 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(79, 98, 134);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 25px;
+}
+
+img{
+    height: auto;
+    width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 16px;
+    border-radius: 8px;
+    gap: 8px;
+    color: rgb(40, 62, 102);
+}
+
+::placeholder{
+    padding: 5px;
+}
+
+.util{
+    text-align: center;
+}
+
+input{
+    border: 1px solid rgb(74, 116, 194);
+    border-radius: 5px;
+    height: 30px;
+    width: auto;
+}
+
+.sino{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+button{
+    background-color: rgb(40, 62, 102);
+    color: white;
+    padding: 8px;
+    border-radius: 5px;
+    border: 0px;
+}
+
+button:hover{
+    color: black;
+    background-color: rgb(79, 98, 134);
+}
+
+button:active{
+    color: white;
+    background-color: rgb(74, 116, 194);
+}
+
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+table{
+    background-color: burlywood;
+    border: black 1px solid;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th{
+    border: black 1px solid;
+    padding: 8px;
+
+} */
+
+/* .box{
+    color: aliceblue;
+    height: 200px;
+    width: 200px;
+    background-color: cadetblue;
+    padding: 50px 50px 50px 50px;
+    border: black 5px solid;
+    margin: 50px 50px 50px 50px;
+} */
+
+/* body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+} */
+
+/* .boxes{
+    background-color: cadetblue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    padding: 40px 20px 30px 10px;
+} */
+
+/* .box{
+    height: 200px;
+    width: 200px; */
+    /* margin-top: 40px;
+    margin-bottom: 30px; */
+/* }
+.a1{
+    color: black;
+    background-color: aquamarine;
+    /* margin-left: 10px; */
+/* }
+
+.a2{
+    color: aliceblue;
+    background-color: brown; */
+    /* margin-right: 20px;
+} */
