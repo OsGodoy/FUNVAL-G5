@@ -1,0 +1,232 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;;
+}
+
+html,
+body{
+    background-color: rgb(192, 194, 184);
+    font-family: Titillium Web;
+    height: 100%;
+    width: 100%;
+}
+
+header{
+    background-color: rgb(80, 80, 70);
+    height: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 60px;
+    display: flex;
+    position: absolute;
+    left: 5%;
+}
+
+.nav1{
+    display: flex;
+    position: absolute;
+    left: 35%;
+}
+
+ul{
+    color: rgb(192, 194, 184);
+    list-style: none;
+    display: flex;
+    gap: 250px;
+}
+
+main{
+    border-color: rgb(192, 194, 184);
+    height: 85%;
+    display: flex;
+}
+
+.mainArtic{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 80%;
+}
+
+.sect1{
+    background-color: rgb(192, 194, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+}
+
+.artic1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h2{
+    color: rgb(27, 27, 27);
+    font-size: 25px;
+    display: flex;
+    position: relative;
+}
+
+.parra1{
+    color: rgb(27, 27, 27);
+    position: relative;
+    text-align: center;
+    width: 90%;
+}
+
+.sect2{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100%;
+    border-radius: 0px 5px 0px 0px;
+}
+
+h3{
+    color: rgb(201, 71, 71);
+    font-size: 40px;
+    position: relative;
+}
+
+.artic2{
+    background-color: rgb(27, 27, 27);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 5%;
+    height: 85%;
+    width: 100%;
+}
+
+.art2{
+    font-size: 20px;
+    background-color: rgb(192, 194, 184);
+    text-align: center;
+    height: 90%;
+    width: 25%;
+    border-radius: 10px;
+}
+
+.pArt{
+    color: rgb(27, 27, 27);
+    position: relative;
+    top: 5%;
+}
+
+.dean{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 8%;
+    bottom: 15%;
+}
+
+.deanImg{
+    width: 60%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.esp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 31,5%;
+    bottom: 20%;
+}
+
+.espImg{
+    width: 50%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+.prs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    left: 60%;
+    bottom: 20%;
+}
+
+.prsImg{
+    width: 45%;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px 1px gray;
+}
+
+aside{
+    text-align: center;
+    background-color: rgb(192, 194, 184);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+}
+
+ol{
+    list-style: none;
+}
+
+.nav2{
+    background-color: rgb(27, 27, 27);
+    height: 92%;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+h4{
+    color: rgb(201, 71, 71);
+    font-size: 20px;
+    position: relative;
+    width: 50%;
+}
+
+.lisNav{
+    color: rgb(200, 200, 180);
+    background-color: rgb(43, 43, 43);
+    height: 80%;
+    width: 80%;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15%;
+}
+
+footer{
+    color: rgb(192, 194, 184);
+    background-color: rgb(80, 80, 70);
+    font-size: 12px;
+    height: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
