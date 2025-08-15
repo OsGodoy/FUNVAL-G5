@@ -26,13 +26,9 @@ article{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-}
-
-section{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    height: auto;
+    height: 50%;
+    width: auto;
+    gap: 30%;
 }
 
 h2{
@@ -45,24 +41,29 @@ h2{
     align-self: flex-end;
 }
 
+.insLogo{
+    display: flex;
+    align-self: flex-end;
+}
+
 footer{
     background-color: rgb(136, 157, 189);
     height: 10%;
-    width: auto;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.boxes{
+.footCont{
     display: flex;
-    justify-content: center;
     align-items: center;
-    gap: 200px;
+    justify-content: space-evenly;
 }
 
 a{
     color: black;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
 }
 
