@@ -7,8 +7,15 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
+    --color-red-300: oklch(80.8% 0.114 19.571);
     --color-red-500: oklch(63.7% 0.237 25.331);
+    --color-amber-300: oklch(87.9% 0.169 91.605);
+    --color-green-400: oklch(79.2% 0.209 151.711);
+    --color-teal-600: oklch(60% 0.118 184.704);
     --color-blue-400: oklch(70.7% 0.165 254.624);
+    --color-purple-500: oklch(62.7% 0.265 303.9);
+    --color-fuchsia-500: oklch(66.7% 0.295 322.15);
+    --color-gray-500: oklch(55.1% 0.027 264.364);
     --color-gray-800: oklch(27.8% 0.033 256.848);
     --color-white: #fff;
     --spacing: 0.25rem;
@@ -184,11 +191,29 @@
     border-style: var(--tw-border-style);
     border-width: 1px;
   }
+  .bg-amber-300 {
+    background-color: var(--color-amber-300);
+  }
   .bg-blue-400 {
     background-color: var(--color-blue-400);
   }
-  .bg-red-500 {
-    background-color: var(--color-red-500);
+  .bg-gray-500 {
+    background-color: var(--color-gray-500);
+  }
+  .bg-green-400 {
+    background-color: var(--color-green-400);
+  }
+  .bg-purple-500 {
+    background-color: var(--color-purple-500);
+  }
+  .bg-red-300 {
+    background-color: var(--color-red-300);
+  }
+  .bg-teal-600 {
+    background-color: var(--color-teal-600);
+  }
+  .text-fuchsia-500 {
+    color: var(--color-fuchsia-500);
   }
   .text-gray-800 {
     color: var(--color-gray-800);
